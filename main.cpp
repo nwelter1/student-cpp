@@ -11,7 +11,7 @@ int main() {
     string name;
     // insert code here...
     cout << "May I know your name???";
-    cin >> name;
+    getline(cin, name);
     cout << "You don't know shit about static typing Mr/Mrs " << name + "\n";
     return 0;
 }
